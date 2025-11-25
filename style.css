@@ -1,3 +1,8 @@
+*{
+    letter-spacing: .03rem;
+    color: var(--black-market);
+}
+
 :root {
     --white: #fff;
     --black-market: #231e41;
@@ -5,4 +10,12 @@
     --saffaron: #f5c332;
     --dark-gray: #f2f3f5;
     --light-gray: #f9fafc;
+}
+
+/* navbar styling */
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--black-market);
 }
